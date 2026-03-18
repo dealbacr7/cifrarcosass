@@ -107,4 +107,4 @@ if __name__ == '__main__':
     # 5. Revelar el secreto
     if clave_correcta:
         print("\n" + "="*55)
-        print(f"✅ ¡HACK COMPLETO! La contraseña maestra
+        print(f"✅ ¡HACK COMPLETO! La contraseña maestra")
