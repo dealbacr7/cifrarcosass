@@ -53,13 +53,12 @@ def main():
     num_cores = multiprocessing.cpu_count()
     print(f"Utilizando {num_cores} nucleos de procesamiento.\n")
 
-    # Guardamos el tiempo de inicio de todo el programa
+
     inicio_total = time.time()
 
     for i, mensaje in enumerate(mensajes):
         print(f"Analizando mensaje {i+1}/{len(mensajes)}...")
         
-        # Guardamos el tiempo de inicio solo para esta frase
         inicio_mensaje = time.time()
         tareas = [(mensaje, clave) for clave in claves]
         encontrado = False
